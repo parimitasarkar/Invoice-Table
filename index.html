@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invoice Table</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>Invoices</h1>
+        <input type="text" id="searchBar" placeholder="Search">
+        <button type="button" id="sortButton">Sort</button><br>
+        <table id="invoiceTable">
+            <thead>
+                <tr class="shipping-method">
+                    <th>Federal Shipping</th>
+                    <th>Product Name</th>
+                    <th>Quantity</th>
+                    <th>Extended Price</th>
+                    <th>Shipper Name</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="item-row">
+                    <td>Pineapple</td>
+                    <td>21</td>
+                    <td class="quantity-red">87.2</td>
+                    <td>Fun Inc.</td>
+                    <td>2015-04-01T00:00:00</td>
+                    <td>A</td>
+                </tr>
+                <tr class="item-row">
+                    <td>Milk</td>
+                    <td>4</td>
+                    <td class="quantity-green">10</td>
+                    <td>ACME</td>
+                    <td>2015-02-18T00:00:00</td>
+                    <td>B</td>
+                </tr>
+                <tr class="item-row">
+                    <td>Canned Beans</td>
+                    <td>3</td>
+                    <td class="quantity-red">6.85</td>
+                    <td>ACME</td>
+                    <td>2015-03-02T00:00:00</td>
+                    <td>B</td>
+                </tr>
+                <tr class="item-row">
+                    <td>Salad</td>
+                    <td>2</td>
+                    <td class="quantity-green">8.8</td>
+                    <td>ACME</td>
+                    <td>2015-04-12T00:00:00</td>
+                    <td>C</td>
+                </tr>
+                <tr class="item-row">
+                    <td>Bread</td>
+                    <td>1</td>
+                    <td class="quantity-red">2.71</td>
+                    <td>Fun Inc.</td>
+                    <td>2015-01-27T00:00:00</td>
+                    <td>A</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
